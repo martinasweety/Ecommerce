@@ -5,7 +5,7 @@ import { FaTrashAlt } from 'react-icons/fa'
 import Modal from '../Components/Modal'
 import ChangeAddress from '../Components/ChangeAddress'
 import { decreaseQuantity, increaseQuantity, removeFromCart } from '../Redux/cartSlice'
-import { Navigate, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 
 const Cart = () => {
     const cart = useSelector(state => state.cart)

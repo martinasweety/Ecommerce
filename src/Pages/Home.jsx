@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { Categories, mockData } from '../assets/mockData.jsx'
-import HeroImage from '../assets/Image/hero-page.png'
+import HeroImage from '../assets/Image/hero2.jpg'
 import InfoSection from '../Components/InfoSection.jsx'
 import CategorySection from '../Components/CategorySection.jsx'
-import { setProducts } from '../Redux/productSlice.jsx'
+import { setProducts } from '../redux/productSlice.jsx'
 import { useDispatch, useSelector } from 'react-redux'
 import ProductCard from '../Components/ProductCard.jsx'
 import Shop from './Shop.jsx'
@@ -34,10 +34,9 @@ const Home = () => {
         <div className='w-full md:w-9/12 mt-8 md:mt-0 h-96 relative'>
           <img src={HeroImage} alt="" className='w-full h-full' />
           <div className="absolute top-16 left-8">
-            < p className="text-gray-600 mb-4">Martina Sweety</p>
-            <h2 className='text-3xl font-bold'>WELCOME TO E-SHOP</h2>
-            <p className='text-xl mt-2.5 font-bold text-gray-800'>MILLIONS+ PRODUCTS</p>
-            <button className='bg-red-600 px-8 py-1.5 text-white mt-4 hover:bg-red-700 transform transition-transform duration-300 hover:scale-105'>SHOP NOW </button>
+            <h2 className='text-3xl font-bold'>WELCOME TO ELITE COLLECTIONS</h2>
+            <p className='text-xl mt-5 font-bold text-gray-800'>MILLIONS + PRODUCTS</p>
+            <button className='bg-red-600 px-8 py-1.5 text-white mt-7 hover:bg-red-700 transform transition-transform duration-300 hover:scale-105'>SHOP NOW </button>
           </div>
         </div>
       </div>

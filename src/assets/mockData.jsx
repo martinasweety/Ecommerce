@@ -1,12 +1,12 @@
-import Image1 from "./Image/bag.jpg";
-import Image2 from "./Image/sandle.jpg";
-import Image3 from "./Image/watch.jpg";
-import Image4 from "./Image/cap.jpg";
-import Image5 from "./Image/boot1.jpg";
-import Image6 from "./Image/dove.jpg";
-import Image7 from "./Image/headphone.jpg";
-import Image8 from "./Image/robot.jpg";
-import Image9 from "./Image/wwatch.jpg";
+import Image1 from "./Image/cropjean.png";
+import Image2 from "./Image/wshirt.jpg";
+import Image3 from "./Image/saree.png";
+import Image4 from "./Image/boykid.png";
+import Image5 from "./Image/chudi.png";
+import Image6 from "./Image/kidfrck.png";
+import Image7 from "./Image/mendrs.png";
+import Image8 from "./Image/vesti.png";
+import Image9 from "./Image/hoodie.png";
 import Image10 from "./Image/shirt.jpg";
 
 export const Categories = [
@@ -22,63 +22,63 @@ export const Categories = [
 export const mockData = [
   {
     id: 1,
-    image: Image9,
-    name: "Smart Watch",
-    price: 29.99,
+    image: Image8,
+    name: "Dhoti",
+    price: '599',
   },
   {
     id: 2,
-    image: Image8,
-    name: "Robot",
-    price: 39.99,
+    image: Image3,
+    name: "Saree",
+    price: '2,500',
   },
   {
     id: 3,
-    image: Image7,
-    name: "Headphone",
-    price: 19.99,
+    image: Image6,
+    name: "Frock",
+    price: '2,199',
   },
   {
     id: 4,
-    image: Image6,
-    name: "Dove",
-    price: 49.99,
+    image: Image5,
+    name: "Anarkali",
+    price: '1,499',
   },
   {
     id: 5,
-    image: Image10,
-    name: "Shirt",
-    price: 49.99,
+    image: Image7,
+    name: "Blazer Suit",
+    price: '3,499',
   },
   {
     id: 6,
-    image: Image4,
-    name: "Cap",
-    price: 49.99,
+    image: Image2,
+    name: "Grils T-Shirt",
+    price: '399',
   },
   {
     id: 7,
-    image: Image5,
-    name: "Boots",
-    price: 49.99,
+    image: Image9,
+    name: "Hoodie",
+    price: '400',
   },
   {
     id: 8,
-    image: Image3,
-    name: "Watch",
-    price: 49.99,
+    image: Image4,
+    name: "Boys Salwar",
+    price: '1,200',
   },
   {
     id: 9,
-    image: Image2,
-    name: "Sandle",
-    price: 49.99,
+    image: Image10,
+    name: "T-Shirt",
+    price: '499',
   },
   {
     id: 10,
     image: Image1,
-    name: "Bag",
-    price: 49.99,
+    name: "Crop Jean",
+    price: '800',
   },
 
 ];
