@@ -10,12 +10,13 @@ import Image9 from "./Image/hoodie.png";
 import Image10 from "./Image/shirt.jpg";
 
 export const Categories = [
-  "Electronics",
-  "Fashion",
-  "Home & Kitchen",
-  "Beauty",
-  "Sports",
-  "Automotive",
+  "Sarees",
+  "Dhoties",
+  "Kids Frocks",
+  "Boys Salwar",
+  "Blazer",
+  "T-Shirts",
+  "Crop Tops"
 ];
 
 
