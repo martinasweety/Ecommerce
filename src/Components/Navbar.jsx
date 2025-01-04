@@ -5,8 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import Modal from './Modal'
 import Login from './Login'
 import Register from './Register'
-import { setSearchTerm } from '../redux/productSlice'
-import navigate from '../redux/productSlice'
+import { setSearchTerm } from '../Redux/productSlice'
 import logo from '../assets/Image/Elite Collections.png'
 
 
@@ -37,7 +36,7 @@ const Navbar = () => {
         <nav className='bg=white shadow-md'>
             <div className='container mx-auto px-4 md:px-16 lg:px-24 py-4 flex justify-between items-center '>
                 <div className='text-lg font-bold '>
-                    <Link to="/"><img src={logo} className='w-28'  /></Link>
+                    <Link to="/"><img src={logo} className='w-28' /></Link>
                 </div>
                 <div className='relative flex-1 mx-4' >
                     <form onSubmit={handleSearch}>
