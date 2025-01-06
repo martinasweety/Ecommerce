@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Login = ({openSignUp}) => {
+const Login = ({ openSignUp }) => {
     return (
         <div>
             <h2 className='text-2xl font-bold mb-4'>Login</h2>
@@ -12,12 +12,12 @@ const Login = ({openSignUp}) => {
 
                 <div className='mb-4'>
                     <label className="block text-gray-700" >Password</label>
-                    <input className='w-full px-3 py-2  border'  type="password" placeholder='Enter Password'/>
+                    <input className='w-full px-3 py-2  border' type="password" placeholder='Enter Password' />
                 </div>
                 <div className='mb-4 flex items-center justify-between'>
                     <label className="inline-flex items-center">
-                    <input type="checkbox" className='form-checkbox' />
-                    <span className='ml-2  text-gray-700'>Remember Me</span>
+                        <input type="checkbox" className='form-checkbox' />
+                        <span className='ml-2  text-gray-700'>Remember Me</span>
                     </label>
                     <a href="#" className='text-red-800 '>Forgot Password</a>
                 </div>

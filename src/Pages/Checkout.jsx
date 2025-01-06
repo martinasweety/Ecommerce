@@ -3,7 +3,7 @@ import { FaAngleDown, FaAngleUp } from 'react-icons/fa'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
-const Checkout = ({setOrder}) => {
+const Checkout = ({ setOrder }) => {
     const [billingToggle, setBillingToggle] = useState(true)
     const [shippingToggle, setShippingToggle] = useState(false)
     const [paymentToggle, setPaymentToggle] = useState(false)
