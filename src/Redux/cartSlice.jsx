@@ -61,10 +61,14 @@ const cartSlice = createSlice({
                     state.totalPrice -= findItem.price
                 }
             }
-        }
-
+        },
+        resetCart(state) {
+            state.products = [];
+            state.totalQuantity = 0;
+            state.totalPrice = 0;
+          },
 
     },
 })
-export const { addToCart, removeFromCart, increaseQuantity, decreaseQuantity } = cartSlice.actions
+export const { addToCart, removeFromCart, increaseQuantity, decreaseQuantity, resetCart } = cartSlice.actions
 export default cartSlice.reducer

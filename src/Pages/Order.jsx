@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Order = ({ order }) => {
   const navigate = useNavigate()
@@ -23,7 +23,6 @@ const Order = ({ order }) => {
               <p>{product.name} (x {product.quantity})</p>
               <p>₹{product.price * product.quantity}</p>
             </div>
-
           ))}
         </div>
         <div className='mt-4 flex justify-between' >

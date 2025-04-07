@@ -21,10 +21,10 @@ const Footer = () => {
               <Link to="/shop" className='hover:underline'>Shop</Link>
             </li>
             <li>
-              <Link to="/contact" className='hover:underline'>Contact</Link>
+              <Link to="/about" className='hover:underline'>About</Link>
             </li>
             <li>
-              <Link to="/about" className='hover:underline'>About</Link>
+              <Link to="/contact" className='hover:underline'>Contact</Link>
             </li>
           </ul>
         </div>
@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
       <div className='mt-8 border-t border-gray-700 pt-4'>
         <div className='container mx-auto flex flex-col md:flex-row justify-between items-center '>
-          <p>&copy;2024 Elite Collections All Rights Reserved.</p>
+          <p>&copy;2025 Elite Collections All Rights Reserved.</p>
           <div className='flex space-x-6 mt-4 md:mt-0'>
             <a href="" className='hover:underline'>Privacy Policy</a>
             <a href="" className='hover:underline'>Terms & Conditions</a>
